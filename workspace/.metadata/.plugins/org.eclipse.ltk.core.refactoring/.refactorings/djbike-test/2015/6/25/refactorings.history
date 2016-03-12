@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AudioRecordDemo.java&apos; to &apos;bigbike/src/cn.bigbike.cycling.system&apos;&#x0D;&#x0A;- Original project: &apos;djbike2&apos;&#x0D;&#x0A;- Destination element: &apos;bigbike/src/cn.bigbike.cycling.system&apos;&#x0D;&#x0A;- Original element: &apos;com.cn.djbike2.AudioRecordDemo.java&apos;" description="Copy compilation unit" destination="=bigbike/src&lt;cn.bigbike.cycling.system" element1="/src&lt;com.cn.djbike2{AudioRecordDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1434440997295" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="273" key="DIALOG_WIDTH"/>
+		<item value="259" key="DIALOG_Y_ORIGIN"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="965" key="DIALOG_X_ORIGIN"/>
+		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="dfFloat." key="selection"/>
+		<list key="findhistory">
+			<item value="df."/>
+			<item value="isOPenGPS"/>
+			<item value="高度"/>
+			<item value="Audio"/>
+			<item value="bigApp.localService."/>
+			<item value="mAudio."/>
+			<item value="mAudio"/>
+			<item value="android:layout_height=&quot;30dip&quot;"/>
+		</list>
+		<list key="replacehistory">
+			<item value="dfFloat."/>
+			<item value="isOpenGPS"/>
+			<item value="Controller"/>
+			<item value=""/>
+			<item value="mCont."/>
+			<item value="android:layout_height=&quot;28dip&quot;"/>
+			<item value="android:layout_height=&quot;58dip&quot;"/>
+			<item value="bigApp.localService.mAudio"/>
+		</list>
+	</section>
+</section>

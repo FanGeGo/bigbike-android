@@ -1,0 +1,44 @@
+1438566511082	Copy file
+1438578012990	Copy file
+1438578477982	Rename resource 'titlebar_radiogroup_center_bgcolor_selector.xml'
+1438578490064	Rename resource 'titlebar_radiogroup_left_bgcolor_selector.xml'
+1438578498515	Rename resource 'titlebar_radiogroup_right_bgcolor_selector.xml'
+1438578512505	Rename resource 'fragment_cycling_tool_bgcolor_shape.xml'
+1438578519834	Rename resource 'fragment_cycling_speed_label_right_bgcolor_shape.xml'
+1438578526868	Rename resource 'fragment_cycling_speed_label_left_bgcolor_shape.xml'
+1438578534763	Rename resource 'fragment_cycling_speed_bgcolor_shape.xml'
+1438578542743	Rename resource 'fragment_cycling_panel_head_bgcolor_shape.xml'
+1438578549826	Rename resource 'fragment_cycling_panel_body_bgcolor_shape.xml'
+1438578558879	Rename resource 'float_layout_title_bgcolor_shape.xml'
+1438578568505	Rename resource 'float_layout_bgcolor_shape.xml'
+1438578663106	Rename resource 'activity_common_bgcolor_shape.xml'
+1438578700103	Rename resource 'float_layout_shape.xml'
+1438578782212	Rename resource 'tabbar_bgcolor_shape.xml'
+1438578807339	Rename resource 'tabbar_bg_shape.xml'
+1438578817118	Rename resource 'float_layout_bg_shape.xml'
+1438578823658	Rename resource 'activity_common_bg_shape.xml'
+1438578951943	Copy compilation unit
+1438578967328	Rename type 'ConifgActivity'
+1438579462559	Copy file
+1438588728942	Copy compilation unit
+1438588743565	Rename type 'ConfigPActivity'
+1438589047475	Copy file
+1438589243720	Copy file
+1438589323591	Rename resource 'activity_perimeter_config.xml'
+1438589340225	Rename resource 'listview_item_perimeter_config.xml'
+1438589364031	Rename type 'ConfigPerimeterActivity'
+1438590884110	Copy compilation unit
+1438677340169	Copy file
+1438701964561	Copy file
+1438703012399	Copy compilation unit
+1438751998244	Copy compilation unit
+1438757733884	Rename type 'MyFloatView'
+1438800366566	Delete element
+1438802488812	Delete element
+1438961484910	Rename type 'RandomString'
+1438961550295	Rename type 'Random'
+1438961857712	Rename type 'unit'
+1438963044470	Copy file
+1438963075216	Rename resource 'activity_user.xml'
+1438963918086	Copy compilation unit
+1438965771522	Copy file

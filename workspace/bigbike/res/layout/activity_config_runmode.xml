@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_theme_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip" >
+
+        <TextView
+            android:id="@+id/titlebar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="选择运行模式"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/titlebar_title_textsize" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingBottom="50dip"
+        android:paddingTop="50dip" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:background="#99cccccc" />
+
+        <LinearLayout
+            android:id="@+id/activity_config_runmode_gps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/config_item_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingLeft="30dip"
+            android:paddingRight="30dip"
+            android:paddingTop="10dip" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/activity_config_runmode_gps_checked"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/config_perimeter_checked"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GPS模式"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="与“行者”等软件采用相同的技术，使用手机GPS模块来计算运动速度，使用方便，但因速度为卫星数据计算而来，准确性不佳。"
+                android:textColor="#999999"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:background="#99cccccc" />
+
+        <LinearLayout
+            android:id="@+id/activity_config_runmode_hardware"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/config_item_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingLeft="30dip"
+            android:paddingRight="30dip"
+            android:paddingTop="10dip" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/activity_config_runmode_hardware_checked"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/config_perimeter_checked"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="智能硬件模式"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="使用大脚骑行的配套智能硬件，即可选择此模式，该模式下采用传统专业码表的测速技术，通过检测车轮的转动数据来计算速度与里程，可采集到非常精准的骑行数据。"
+                android:textColor="#999999"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:background="#99cccccc" />
+    </LinearLayout>
+
+</LinearLayout>

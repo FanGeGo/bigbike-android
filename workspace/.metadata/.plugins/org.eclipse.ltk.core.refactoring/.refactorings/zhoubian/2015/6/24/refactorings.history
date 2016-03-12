@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;scr_tab_item.xml&apos; to &apos;selector&apos;&#x0D;&#x0A;- Original project: &apos;zhoubian&apos;&#x0D;&#x0A;- Destination element: &apos;selector&apos;&#x0D;&#x0A;- Original element: &apos;scr_tab_item.xml&apos;" description="Copy file" element1="res/color/scr_tab_item.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1434027012120" target="/bigbike/res/selector" units="0" version="1.0"/>
+</session>

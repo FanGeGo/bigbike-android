@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_theme_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="互动"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/titlebar_title_textsize" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#eeeeee"
+        android:orientation="vertical"
+        android:paddingBottom="30dip"
+        android:paddingTop="30dip" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#99cccccc" />
+
+        <LinearLayout
+            android:id="@+id/fragment_interact_rank_total"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/fragment_interact_item_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip" >
+
+            <ImageView
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/interact_rank_total" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="总里程排行"
+                android:textColor="#333333"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="15dip"
+                android:layout_height="15dip"
+                android:background="@drawable/interact_arrow" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#99cccccc" />
+
+        <LinearLayout
+            android:id="@+id/fragment_interact_rank_today"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/fragment_interact_item_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip" >
+
+            <ImageView
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/interact_rank_today" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="今日排行"
+                android:textColor="#333333"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="15dip"
+                android:layout_height="15dip"
+                android:background="@drawable/interact_arrow" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#99cccccc" />
+    </LinearLayout>
+
+</LinearLayout>

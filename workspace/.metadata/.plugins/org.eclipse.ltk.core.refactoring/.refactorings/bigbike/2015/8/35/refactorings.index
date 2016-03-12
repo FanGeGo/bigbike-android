@@ -1,0 +1,34 @@
+1440341600205	Rename resource 'activity_web_progressbar_layerlist.xml'
+1440341611160	Rename resource 'activity_userinfo_exit_selector.xml'
+1440341624588	Rename resource 'activity_login_button_selector.xml'
+1440341689078	Rename resource 'interact_item_selector.xml'
+1440341703601	Rename resource 'activity_config_new_shape.xml'
+1440341717269	Rename resource 'activity_cycling_fullscreen_exit_selector.xml'
+1440345100534	Delete element
+1440345433683	Rename resource 'interact_rank.png'
+1440383217415	Rename type 'OnceAddActivity'
+1440383251481	Rename type 'OnceHistoryActivity'
+1440383268629	Rename type 'TodayHistoryActivity'
+1440383296166	Rename resource 'activity_add_once.xml'
+1440383331243	Rename resource 'activity_history_today_and_once.xml'
+1440383351000	Rename resource 'activity_today_once_history.xml'
+1440389111495	Copy compilation unit
+1440391223470	Copy file
+1440403553172	Rename type 'OnceHistoryAdapter'
+1440404503445	Rename resource 'loading_dialog.png'
+1440404866910	Rename resource 'loading_dialog.xml'
+1440404926773	Rename resource 'loading_dialog11.xml'
+1440405143148	Rename resource 'loading_dialog1111.xml'
+1440405431455	Rename resource 'loading_animation.xml'
+1440405511417	Rename resource 'loading_dialog111.xml'
+1440406281335	Rename resource 'loading_dialog.xml'
+1440406290003	Rename resource 'loading_dialog1.xml'
+1440429563045	Rename type 'AdapterForLinearLayout'
+1440429647941	Rename type 'ProgressWebView'
+1440429655703	Rename type 'DialogLoading'
+1440429758577	Rename resource 'loading_dialog.xml'
+1440429842720	Rename resource 'loading_dialog_img.png'
+1440429871038	Rename resource 'loading_dialog.xml'
+1440468013663	Copy file
+1440468654734	Copy file
+1440475608382	Copy compilation unit

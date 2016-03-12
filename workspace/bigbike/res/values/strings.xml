@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">大脚骑行</string>
+    
+    <string name="tabbar_radiobutton_interaction">互动</string>
+    <string name="tabbar_radiobutton_cycling">骑行</string>
+    <string name="tabbar_radiobutton_mall">硬件</string>
+
+</resources>

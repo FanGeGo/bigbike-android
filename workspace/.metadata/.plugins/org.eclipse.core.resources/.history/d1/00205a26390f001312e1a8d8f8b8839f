@@ -1,0 +1,395 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appContentBg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!-- 导航条开始 -->
+
+        <View style="@style/toolbar_line_top" />
+
+        <RelativeLayout style="@style/toolbar" >
+
+            <LinearLayout style="@style/toolbar_left" >
+
+                <ImageButton
+                    android:id="@+id/toolbar_back"
+                    style="@style/toolbar_back" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/toolbar_center" >
+
+                <TextView
+                    android:id="@+id/toolbar_text"
+                    style="@style/toolbar_text"
+                    android:text="@string/app_shuoshuo_id" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/toolbar_right" >
+
+                <Button
+                    android:id="@+id/toolbar_button_space"
+                    style="@style/toolbar_right_button"
+                    android:text="选项" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View style="@style/toolbar_line_bottom" />
+        <!-- 导航条结束 -->
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:focusable="true"
+            android:focusableInTouchMode="true" >
+
+            <requestFocus />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dip" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#efefef"
+                        android:orientation="horizontal"
+                        android:padding="5dip" >
+
+                        <ImageView
+                            android:id="@+id/shuoshuo_id_avatars"
+                            android:layout_width="50dip"
+                            android:layout_height="50dip"
+                            android:layout_marginRight="10dip" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dip"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:id="@+id/shuoshuo_id_info"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:text=""
+                                    android:textColor="#198fd2"
+                                    android:textSize="16dip" />
+
+                                <ImageView
+                                    android:id="@+id/shuoshuo_id_sex"
+                                    android:layout_width="12dip"
+                                    android:layout_height="12dip"
+                                    android:layout_marginLeft="3dip"
+                                    android:src="@drawable/ic_sex_nan"
+                                    android:visibility="gone" />
+
+                                <View
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/shuoshuo_id_info1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dip"
+                                android:text=""
+                                android:textColor="#666666"
+                                android:textSize="10dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dip"
+                        android:layout_marginBottom="10dip"
+                        android:background="#c7cbcc" />
+
+                    <TextView
+                        android:id="@+id/shuoshuo_id_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text=""
+                        android:textColor="#000"
+                        android:textSize="16dip" />
+
+                    <LinearLayout
+                        android:id="@+id/shuoshuo_id_image_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:id="@+id/shuoshuo_id_image"
+                            android:layout_width="100dip"
+                            android:layout_height="100dip"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ic_image_load" />
+
+                        <ImageView
+                            android:layout_width="15dip"
+                            android:layout_height="15dip"
+                            android:layout_marginLeft="10dip"
+                            android:src="@drawable/ic_picture_small" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/shuoshuo_id_reshuo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/scr_list_item_shuoshuo_button"
+                        android:orientation="vertical"
+                        android:paddingBottom="8dip"
+                        android:paddingLeft="8dip"
+                        android:paddingRight="8dip"
+                        android:paddingTop="15dip"
+                        android:visibility="gone" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/shuoshuo_id_reshuo_avatars"
+                                android:layout_width="38dip"
+                                android:layout_height="38dip"
+                                android:layout_marginRight="10dip"
+                                android:background="#efefef"
+                                android:padding="1dip"
+                                android:src="@drawable/ic_avatars" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal" >
+
+                                    <TextView
+                                        android:id="@+id/shuoshuo_id_reshuo_info1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:ellipsize="end"
+                                        android:singleLine="true"
+                                        android:text="我是个钓丝"
+                                        android:textColor="#198fd2"
+                                        android:textSize="14dip" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/shuoshuo_id_reshuo_info2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dip"
+                                    android:text="9天前    原文被转发(153)"
+                                    android:textColor="#727272"
+                                    android:textSize="10dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/shuoshuo_id_reshuo_message"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:lineSpacingMultiplier="1.2"
+                            android:text="这是我的第一个贴子这是我的第一个贴子这是我的第一个贴子这是我的第一个贴子"
+                            android:textColor="#414141"
+                            android:textSize="16dip" />
+
+                        <LinearLayout
+                            android:id="@+id/shuoshuo_id_reshuo_image_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dip"
+                            android:layout_marginTop="5dip"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:visibility="gone" >
+
+                            <ImageView
+                                android:id="@+id/shuoshuo_id_reshuo_image"
+                                android:layout_width="80dip"
+                                android:layout_height="80dip"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/ic_image_load" />
+
+                            <ImageView
+                                android:layout_width="15dip"
+                                android:layout_height="15dip"
+                                android:layout_marginLeft="10dip"
+                                android:src="@drawable/ic_picture_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/shuoshuo_id_reshequ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/scr_list_item_shuoshuo_button"
+                        android:orientation="vertical"
+                        android:paddingBottom="6dip"
+                        android:paddingLeft="8dip"
+                        android:paddingRight="8dip"
+                        android:paddingTop="13dip"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/shuoshuo_id_reshequ_info1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="你是个虾米    9天前    该贴子被转发(153)"
+                            android:textColor="#727272"
+                            android:textSize="10dip" />
+
+                        <TextView
+                            android:id="@+id/shuoshuo_id_reshequ_subject"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="这是我的第一个贴子这是我的第一个贴子这是我的第一个贴子这是我的第一个贴子"
+                            android:textColor="#1084ce"
+                            android:textSize="14dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/shuoshuo_id_nodata"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:background="@color/scr_list_item_shuoshuo_button"
+                        android:orientation="vertical"
+                        android:paddingBottom="8dip"
+                        android:paddingLeft="8dip"
+                        android:paddingRight="8dip"
+                        android:paddingTop="13dip"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="转发的内容已被删除"
+                            android:textColor="#1084ce"
+                            android:textSize="14dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dip"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/shuoshuo_id_replies"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#0a9dff"
+                            android:padding="5dip"
+                            android:text="评论0条"
+                            android:textColor="#ffffff"
+                            android:textSize="12dip" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <Button
+                            android:id="@+id/shuoshuo_id_reprint"
+                            android:layout_width="60dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dip"
+                            android:background="@color/scr_button_square_gray"
+                            android:padding="5dip"
+                            android:text="转发"
+                            android:textSize="12dip" />
+
+                        <Button
+                            android:id="@+id/shuoshuo_id_comment"
+                            android:layout_width="60dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dip"
+                            android:background="@color/scr_button_square_yellow"
+                            android:padding="5dip"
+                            android:text="评论"
+                            android:textSize="12dip" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="#0a9dff" />
+
+                    <com.zhoubian.foxconn.widget.CommentLayoutListview
+                        android:id="@+id/comment_listview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@+id/shuoshuo_id_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dip"
+                        android:gravity="center"
+                        android:text="暂时没有评论哦，赶紧发布一个吧~"
+                        android:textSize="12dip"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:id="@+id/more_button"
+                        style="@style/common_button_long"
+                        android:layout_height="35dip"
+                        android:layout_marginBottom="5dip"
+                        android:layout_marginTop="10dip"
+                        android:background="@color/scr_button_square_gray"
+                        android:text="查看更多评论..."
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/config_item_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip" >
+
+        <TextView
+            android:id="@+id/listview_item_config_perimeter_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="26 × 1.95"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/listview_item_config_perimeter_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="205 厘米"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+        
+        <ImageView 
+            android:id="@+id/listview_item_config_perimeter_checked"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/config_perimeter_checked" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:background="#99cccccc" />
+
+</LinearLayout>
