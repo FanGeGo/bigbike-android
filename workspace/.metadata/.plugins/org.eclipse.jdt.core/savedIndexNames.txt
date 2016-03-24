@@ -1,16 +1,6 @@
-INDEX VERSION 1.127+E:\Android Code\workspace\.metadata\.plugins\org.eclipse.jdt.core
-846663559.index
-2617711963.index
-3561259671.index
-4167849342.index
-551996204.index
-2689075408.index
-2669768504.index
+INDEX VERSION 1.127+E:\Code\github_bigbike-android\workspace\.metadata\.plugins\org.eclipse.jdt.core
 2178503792.index
-3316815796.index
-50813375.index
-311654783.index
 1284074322.index
-1154907134.index
-305553594.index
-766357022.index
+311654783.index
+2617711963.index
+2689075408.index

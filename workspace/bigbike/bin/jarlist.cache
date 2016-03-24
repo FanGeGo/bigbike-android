@@ -1,9 +1,9 @@
 # cache for current jar dependency. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1457313913674 110747 e9b63380f3a242dbdbf103a2355ad7e43bad17cb E:\Android Code\workspace\bigbike-NiftyDialogEffects\libs\NineOldAndroid-2.4.0.jar
-1457313927355 110747 e9b63380f3a242dbdbf103a2355ad7e43bad17cb E:\Android Code\workspace\bigbike\libs\NineOldAndroid-2.4.0.jar
-1457313923712 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 E:\Android Code\workspace\bigbike-CircleImageView\libs\android-support-v4.jar
-1457313918196 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 E:\Android Code\workspace\bigbike-NiftyDialogEffects\libs\android-support-v4.jar
-1457313938140 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 E:\Android Code\workspace\bigbike\libs\android-support-v4.jar
-1457313947249 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 E:\Android Code\workspace\appcompat_v7\libs\android-support-v4.jar
+1457313927355 110747 e9b63380f3a242dbdbf103a2355ad7e43bad17cb E:\Code\github_bigbike-android\workspace\bigbike\libs\NineOldAndroid-2.4.0.jar
+1457313913674 110747 e9b63380f3a242dbdbf103a2355ad7e43bad17cb E:\Code\github_bigbike-android\workspace\bigbike-NiftyDialogEffects\libs\NineOldAndroid-2.4.0.jar
+1457313947249 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 E:\Code\github_bigbike-android\workspace\appcompat_v7\libs\android-support-v4.jar
+1457313918196 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 E:\Code\github_bigbike-android\workspace\bigbike-NiftyDialogEffects\libs\android-support-v4.jar
+1457313923712 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 E:\Code\github_bigbike-android\workspace\bigbike-CircleImageView\libs\android-support-v4.jar
+1457313938140 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 E:\Code\github_bigbike-android\workspace\bigbike\libs\android-support-v4.jar
