@@ -8,8 +8,8 @@
 [![image](https://github.com/onanying/bigbike-android/blob/master/picture/schematic_thumb.jpg?raw=true)](https://github.com/onanying/bigbike-android/blob/master/picture/schematic.jpg?raw=true)
 
 ## 下载 (down)
-[应用宝](http://android.myapp.com/myapp/detail.htm?apkName=cn.bigbike.cycling)
-<br>
+[Download Android APP](http://android.myapp.com/myapp/detail.htm?apkName=cn.bigbike.cycling)
+<br><br>
 [![image](https://github.com/onanying/bigbike-android/blob/master/picture/screenshot_thumb.jpg?raw=true)](https://github.com/onanying/bigbike-android/blob/master/picture/screenshot.jpg?raw=true)
 
 ## 功能截图 (screenshot)
