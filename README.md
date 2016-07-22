@@ -5,12 +5,12 @@
 2015获得中国专利局颁发的实用新型专利证书，欢迎极客拿去实验，请勿用作商业用途
 
 ## 硬件原理图
-[![image](http://note.youdao.com/favicon.ico)](http://note.youdao.com/)
+[![image](https://github.com/onanying/bigbike-android/blob/master/picture/schematic_thumb.jpg?raw=true)](https://github.com/onanying/bigbike-android/blob/master/picture/schematic.jpg?raw=true)
 
 ## 下载 (down)
 [应用宝](http://android.myapp.com/myapp/detail.htm?apkName=cn.bigbike.cycling)
-[![image](http://note.youdao.com/favicon.ico)](http://note.youdao.com/)
+[![image](https://github.com/onanying/bigbike-android/blob/master/picture/screenshot_thumb.jpg?raw=true)](https://github.com/onanying/bigbike-android/blob/master/picture/screenshot.jpg?raw=true)
 
 ## 功能截图
-[![image](http://note.youdao.com/favicon.ico)](http://note.youdao.com/)
-[![image](http://note.youdao.com/favicon.ico)](http://note.youdao.com/)
+[![image](https://github.com/onanying/bigbike-android/blob/master/picture/app_thumb.jpg?raw=true)](https://github.com/onanying/bigbike-android/blob/master/picture/app.jpg?raw=true)
+[![image](https://github.com/onanying/bigbike-android/blob/master/picture/device_thumb.jpg?raw=true)](https://github.com/onanying/bigbike-android/blob/master/picture/device.jpg?raw=true)
