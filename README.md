@@ -10,7 +10,7 @@
 ## 下载 (down)
 [Download Android APP](http://android.myapp.com/myapp/detail.htm?apkName=cn.bigbike.cycling)
 <br><br>
-[image](https://github.com/onanying/bigbike-android/blob/master/picture/screenshot_thumb.jpg?raw=true)
+![image](https://github.com/onanying/bigbike-android/blob/master/picture/screenshot_thumb.jpg?raw=true)
 
 ## 功能截图 (screenshot)
 [![image](https://github.com/onanying/bigbike-android/blob/master/picture/app_thumb.jpg?raw=true)](https://github.com/onanying/bigbike-android/blob/master/picture/app.jpg?raw=true)
